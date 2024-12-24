@@ -47,5 +47,27 @@
       "text": "Awesome post!",
       "postId": "5"
     }
+  ],
+  "todo": [
+    {
+      "id": "1",
+      "task": "Complete assignment",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "task": "Read book",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "task": "Go for a walk",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "task": "Watch movie",
+      "completed": true
+    }
   ]
 }
