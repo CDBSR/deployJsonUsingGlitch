@@ -48,26 +48,26 @@
       "postId": "5"
     }
   ],
-  "todo": [
+  "todos": [
     {
       "id": "1",
       "task": "Complete assignment",
-      "completed": false
+      "completed": false,
+      "userId" : 1
     },
     {
       "id": "2",
       "task": "Read book",
-      "completed": true
-    },
+      "completed": true,
+      "userId" : 1
+    }
+  ],
+  "users": [
     {
-      "id": "3",
-      "task": "Go for a walk",
-      "completed": false
-    },
-    {
-      "id": "4",
-      "task": "Watch movie",
-      "completed": true
+      "id" : 1,
+      "name": "test",
+      "email" : "test@gmail.com",
+      "password" : "1234"
     }
   ]
 }
