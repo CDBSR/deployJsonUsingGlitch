@@ -1,4 +1,16 @@
 {
+  "questions": [
+    {
+      "title": "Which of the following methods is used to update?",
+      "optionA": "GET",
+      "optionB": "POST",
+      "optionC": "PATCH",
+      "optionD": "DELETE",
+      "correctOption": "C",
+      "reviewStatus": false
+    }
+    
+  ],
   "posts": [
     {
       "id": "1",
@@ -53,21 +65,33 @@
       "id": "1",
       "task": "Complete assignment",
       "completed": false,
-      "userId" : 1
+      "userId": 1
     },
     {
       "id": "2",
       "task": "Read book",
       "completed": true,
-      "userId" : 1
+      "userId": 1
     }
   ],
   "users": [
     {
-      "id" : 1,
+      "id": 1,
       "name": "test",
-      "email" : "test@gmail.com",
-      "password" : "1234"
+      "email": "test@gmail.com",
+      "password": "1234"
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "username": "test23",
+      "email": "test23@gmail.com",
+      "password": "test23",
+      "id": 3
     }
   ]
 }
