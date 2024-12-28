@@ -1,4 +1,33 @@
 {
+  "books": [
+    {
+      "title": "Book Title",
+      "author": "Author Name",
+      "category": "Fictional",
+      "isAvailable": true,
+      "isVerified": false,
+      "borrowedDays": null,
+      "imageUrl": "https://m.media-amazon.com/images/I/71ZB18P3inL._SY522_.jpg"
+    },
+    
+    {
+      "title": "BB",
+      "author": "B",
+      "category": "fiction",
+      "isAvailable": false,
+      "isVarified": false,
+      "id": 2
+    },
+    {
+      "title": "tets",
+      "author": "tets",
+      "category": "fiction",
+      "borrowDays": null,
+      "isAvailable": true,
+      "isVarified": false,
+      "id": 3
+    }
+  ],
   "questions": [
     {
       "title": "Which of the following methods is used to update?",
@@ -9,7 +38,6 @@
       "correctOption": "C",
       "reviewStatus": false
     }
-    
   ],
   "posts": [
     {
@@ -53,11 +81,6 @@
       "id": "4",
       "text": "Thanks for sharing!",
       "postId": "4"
-    },
-    {
-      "id": "5",
-      "text": "Awesome post!",
-      "postId": "5"
     }
   ],
   "todos": [
@@ -72,6 +95,116 @@
       "task": "Read book",
       "completed": true,
       "userId": 1
+    },
+    {
+      "title": "test123",
+      "deadline": "2024-12-28",
+      "priority": "high",
+      "status": false,
+      "userId": 4,
+      "id": "O9J8lc2"
+    },
+    {
+      "title": "",
+      "deadline": "",
+      "priority": "high",
+      "status": false,
+      "id": "5yVcYF6"
+    },
+    {
+      "title": "task",
+      "deadline": "2024-12-28",
+      "priority": "high",
+      "status": false,
+      "id": "WFm3GGr"
+    },
+    {
+      "title": "newNewOne",
+      "deadline": "2024-12-26",
+      "priority": "high",
+      "status": true,
+      "userId": 4,
+      "id": "KZl0XzT"
+    },
+    {
+      "title": "te",
+      "deadline": "2024-12-03",
+      "priority": "medium",
+      "status": false,
+      "userId": 4,
+      "id": "ykP1F_h"
+    },
+    {
+      "title": "teee",
+      "deadline": "2024-12-28",
+      "priority": "high",
+      "status": false,
+      "userId": 4,
+      "id": "_awE9Ux"
+    },
+    {
+      "title": "Ek Naya Challange",
+      "deadline": "2024-12-28",
+      "priority": "high",
+      "status": false,
+      "userId": 4,
+      "id": "NNcw2ZR"
+    },
+    {
+      "title": "Dusara Naya TAsk NAYAAAAA",
+      "deadline": "2024-12-28",
+      "priority": "low",
+      "status": false,
+      "userId": 4,
+      "id": "85gctre"
+    },
+    {
+      "title": "New TAsk NAYA",
+      "deadline": "2024-12-25",
+      "priority": "high",
+      "status": true,
+      "userId": 5,
+      "id": "9zSxBqC"
+    },
+    {
+      "title": "NAYA TASK",
+      "deadline": "2024-12-31",
+      "priority": "high",
+      "status": false,
+      "userId": 6,
+      "id": "9SqUeZp"
+    },
+    {
+      "title": "DUSARA NAYA TASK",
+      "deadline": "2024-12-25",
+      "priority": "high",
+      "status": true,
+      "userId": 6,
+      "id": "KDZdaKN"
+    },
+    {
+      "title": "ORRIYO NAYA",
+      "deadline": "2024-12-26",
+      "priority": "medium",
+      "status": false,
+      "userId": 4,
+      "id": "MwL1AsL"
+    },
+    {
+      "title": "tatatatttt",
+      "deadline": "2024-12-28",
+      "priority": "high",
+      "status": false,
+      "userId": 4,
+      "id": "GR0NNLI"
+    },
+    {
+      "title": "NEXT",
+      "deadline": "2024-12-26",
+      "priority": "high",
+      "status": false,
+      "userId": 4,
+      "id": "xvyP0PV"
     }
   ],
   "users": [
@@ -92,6 +225,28 @@
       "email": "test23@gmail.com",
       "password": "test23",
       "id": 3
+    },
+    {
+      "username": "test1",
+      "email": "test1@gmail.com",
+      "password": "test",
+      "gender": "male",
+      "mobile": "1234567890",
+      "id": 4
+    },
+    {
+      "username": "NayaSignUp",
+      "email": "naya@gmail.com",
+      "password": "naya",
+      "id": 5
+    },
+    {
+      "username": "test234",
+      "email": "test234@gmail.com",
+      "password": "test",
+      "gender": "",
+      "mobile": "",
+      "id": 6
     }
   ]
 }
